@@ -1,0 +1,194 @@
+div.one {
+    -moz-box-shadow: 5px 5px 5px #777777;
+    -webkit-box-shadow: 5px 5px 5px #777777;
+    box-shadow:5px 5px 5px #777777;
+}
+{
+    border-radius: 1em 4em 1em 4em/2em 1em 2em 1em;
+    -moz-border-radius: 1em 4em 1em 4em
+        /2em 1em 2em 1em;
+    -webkit-border-radius: 1em 4em 1em 4em
+        /2em 1em 2em 1em;
+}
+
+body {
+
+    width: 960px;
+  margin: 0 auto;
+    background-image:linear-gradient(to bottom right,#0C59AC 60%,#F4F4F6 40%);
+   
+}
+.page{
+
+}
+header{
+    border: 1px solid #0C59AC;
+  padding: 30px;
+ background-color: #0C59AC;
+}
+.logo{
+    float: left;
+   
+
+}
+
+.logo img {
+width: 115px;
+
+}
+nav{
+float:right;
+text-align: right;
+}
+
+ul{
+    list-style-type: none;
+}
+li
+{ 
+    display: inline;
+    padding: inherit;    
+    }
+li a {
+  
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:#B3D5FA ;
+}
+.headbox{
+    border: 1px solid #0C59AC;
+  padding: 15px;
+text-align: center;
+
+}
+h1 {
+    color: white;
+}
+.pop{
+    color:#F7D98D;
+}
+.headline {
+    
+}
+
+.intro{
+    border: 1px solid #0C59AC;
+  padding: 25px;
+ background-color:#B3D5FA ;
+color: white;
+}
+
+
+    
+}
+
+.box1{
+ float: left;
+  width: 33.33%;
+  padding: 15px;
+  
+  
+}
+
+.box2{
+ float:inherit;
+  width: 33.33%;
+  padding: 15px;
+  
+}
+.vbutton{
+background-color: #4caf50;
+border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 3px 90px;
+  cursor: pointer;
+}
+.box3{
+ float: right;
+  width: 33.33%;
+  padding: 15px;
+  
+}
+.content{
+    display: flex;
+}
+
+h2{
+    color: #F7D98D;
+    text-align: center;
+}
+.content p {
+    color: #F7D98D;
+    text-align: center;
+}
+footer
+{ 
+    border: 1px solid white;
+  padding: 75px;
+   ;     
+    }
+
+.contact{
+  float:left;
+text-align: center;
+color: white;
+  width: 300px;
+  height: 300px;
+  background: red;
+  border-radius: 50%
+}
+.contact h3{
+    margin: 50px 1px
+}
+
+.social{
+    float:right;
+    text-align: center;
+color: white;
+    width: 300px;
+  height: 300px;
+  background: red;
+  border-radius: 50%;
+}
+.social h3 {
+    text-align: center;
+    margin: 50px 1px;
+    
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    overflow: auto;
+}
+message{
+margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; ;   
+}
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
